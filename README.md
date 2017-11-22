@@ -37,6 +37,8 @@ mongo以及redis装好后，进入项目目录，依照步骤执行：
 git clone https://github.com/howie6879/owllook
 cd owllook
 pip install -r requirements.txt
+## 我这里因为是有python2环境干扰，没配置perfect。所以，需要把安装脚本改为
+#$ python -m pip install -r requirements.txt
 cd owllook
 
 # 方案一
