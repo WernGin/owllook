@@ -44,7 +44,7 @@ cd owllook
 # 方案一
 # 运行：
 python server.py
-# 或者
+# 或者 [gunicorn容器](http://gunicorn.org/)
 gunicorn --bind 127.0.0.1:8001 --worker-class sanic.worker.GunicornWorker server:app
 
 # 方案二
